@@ -9,4 +9,17 @@
 
 # Custom PCB to connect Hamamatsu C12880MA Mini-Spectrometer with a STM32-Nukleo Board
 
-... todo
+The custom PCB is intended for connection to a NUCLEO-L476RG (STMicroelectronics) development board. 
+However, other boards may also be compatible. 
+
+The board consists primarily of an ADC [2] and a socket for the mini spectrometer and is more or less a breakout board 
+that has to be plugged onto the Nucleo board.
+
+We provide firmware for the NUCLEO-L476RG in a separate repository [1], it drives the sensor and offers a command line interface (UART)
+to control the system.     
+
+
+--- 
+
+[2] AD7671, Analog Devices Inc
+[1] [https://github.com/Helmholtz-UFZ/MiniSpecHardware](https://github.com/Helmholtz-UFZ/MiniSpecFirmware)
