@@ -22,4 +22,5 @@ to control the system.
 --- 
 
 [2] AD7671, Analog Devices Inc
+
 [1] [https://github.com/Helmholtz-UFZ/MiniSpecHardware](https://github.com/Helmholtz-UFZ/MiniSpecFirmware)
